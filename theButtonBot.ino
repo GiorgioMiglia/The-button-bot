@@ -58,7 +58,7 @@ void loop() {
   if (digitalRead(buttonPin) == 0 && digitalRead(buttonPin) != old_status) { //prevent spamming
     old_status = 0;
     digitalWrite(LED_BUILTIN, old_status); // used for feedback
-    bot.sendPhoto(chat_id, photo_url, "");
+    bot.sendPhoto(chat_id, photo_url, ""); // you can write what you want as pic description between ""
   } else if (digitalRead(buttonPin) == 1){
     old_status = 1;
   }
