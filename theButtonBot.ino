@@ -34,7 +34,7 @@ char password[] = "XXXXXXXX"; // your network key
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
-String photo_url = "https://vignette.wikia.nocookie.net/among-us-wiki/images/1/18/Emergency_Meeting.png/revision/latest?cb=20200803160022"; //the url of the pic
+String photo_url = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; //the url of the pic
 #define buttonPin D1 //change D1 with your pin (must have pullup or it will need a 10k ohm resistor)
 int old_status = 1;
 String chat_id = "XXXXXXX"; // your or your group chat id (use @myidbot)
